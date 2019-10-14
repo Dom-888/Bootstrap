@@ -1,3 +1,23 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.alert-container {}
+
+.callout-container {
+    height: 100v;
+
+    background: url(https://prezentmarzen.com/img/pmcategorygallery/201/base-401-degustacja-whisky-d076.jpg
+) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.quotes-container {}
+
+.features-container {}
+
