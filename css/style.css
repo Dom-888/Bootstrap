@@ -5,7 +5,7 @@ body {
 .alert-container {}
 
 .callout-container {
-    height: 100v;
+    height: 100vh;
 
     background: url(https://prezentmarzen.com/img/pmcategorygallery/201/base-401-degustacja-whisky-d076.jpg
 ) no-repeat center center fixed;
@@ -14,6 +14,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -21,3 +24,18 @@ body {
 
 .features-container {}
 
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-small  {
+     font-size: 60px;
+     font-style: italic;
+     color: whitesmoke;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
