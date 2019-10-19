@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {}
+
 
 /* Navbar */
 
@@ -33,6 +33,25 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
+
+/* Alert */
+.alert-container {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #ebab34;
+    border-color: #ebab34;
+}
+
+
+/* Callout */
 
 .callout-container {
     height: 100vh;
@@ -106,15 +125,18 @@ body {
 
 /* Buttons */
 
-.btn--red {
+.btn {
     color: white;
-    background-color: #eb4034;
-    border-color:#a25212;
     border-radius: 23px;
     font-weight: bold;
     width: 160px;
     }
 
+.btn--red {
+    background-color: #eb4034;
+    border-color: #a25212;
+    }
+
 .btn--red:hover{
-    background-color: #96221a;
-}
+    color: white;
+    background-color: #96221a;}
