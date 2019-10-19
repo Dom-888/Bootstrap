@@ -13,19 +13,53 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+    }
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
 
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+}
 
 .quotes-container {}
 
 .features-container {}
 
+/* Block divider */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #eb4034;
+}
+
+.block-divider--short{
+    width: 35px;
+}
+
+
+/* Jumbotron */
+
 .jumbotron {
     background-color: transparent;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
 }
 
 .jumbotron-small  {
@@ -38,4 +72,19 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.btn--red {
+    color: white;
+    background-color: #eb4034;
+    border-color:#a25212;
+    border-radius: 23px;
+    font-weight: bold;
+    width: 160px;
+    }
+
+.btn--red:hover{
+    background-color: #96221a;
 }
