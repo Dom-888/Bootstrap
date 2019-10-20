@@ -140,3 +140,16 @@ body {
 .btn--red:hover{
     color: white;
     background-color: #96221a;}
+
+
+/* Header */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-bottom: 0;
+}
